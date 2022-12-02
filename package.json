@@ -1,0 +1,27 @@
+{
+  "name": "umass_isa",
+  "version": "1.0.0",
+  "description": "New React JS Web App for Umass ISA",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/build-umass/umass_isa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/build-umass/umass_isa/issues"
+  },
+  "homepage": "https://github.com/build-umass/umass_isa#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
