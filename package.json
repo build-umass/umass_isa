@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/build-umass/umass_isa#readme",
   "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
     "date-fns": "^2.29.3",
     "express": "^4.18.2",
     "uuid": "^9.0.0"
