@@ -2,7 +2,7 @@
   "name": "umass_isa",
   "version": "1.0.0",
   "description": "New React JS Web App for Umass ISA",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "node server",
     "dev": "nodemon server"
@@ -19,13 +19,18 @@
   },
   "homepage": "https://github.com/build-umass/umass_isa#readme",
   "dependencies": {
+    "bcrypt": "^5.1.0",
     "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
     "date-fns": "^2.29.3",
+    "dotenv": "^16.0.3",
     "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "mongoose": "^7.0.3",
+    "mongoose-sequence": "^5.3.1",
     "uuid": "^9.0.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.20"
+    "nodemon": "^2.0.21"
   }
 }
