@@ -19,7 +19,7 @@ const logEvents = async (message, logFileName) => {
     } catch (err) {
         console.log(err)
     }
-}
+} 
 
 /*
 Logs every request that comes in, 
