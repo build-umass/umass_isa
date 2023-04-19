@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+}
+
+#landing, #about_us {
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display:flex;
+    flex-direction:column;
+}
+
+#landing {
+    background-image: url('../images/landing_page.png');
+}
+
