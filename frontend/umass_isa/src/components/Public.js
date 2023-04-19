@@ -1,30 +1,19 @@
 // public facing page
 // need link from react router 
-import { Link } from 'react-router-dom'
+import "../css/public.css"
+import Footer from './Footer.js'
 
 const Public = () => {
-    //basic web page
-    const content = (
-        <section className="public">
-            <header>
-                <h1> Welcome to Public Page! </h1>
-            </header>
-            <main className="public__main">
-                <p>Located in Beautiful Downtown Foo City, Dan D. Repairs  provides a trained staff ready to meet your tech repair needs.</p>
-                <address className="public__addr">
-                    Dan D. Repairs<br />
-                    555 Foo Drive<br />
-                    Foo City, CA 12345<br />
-                </address>
-                <br />
-            </main>
-            <footer>
-                <Link to="/login">Employee Login</Link>
-            </footer>
-        </section>
+    const contents = (
+        <>
+            <section id="landing"></section>
+            <section id="about_us">
+                <Footer />
+            </section>
+        </>      
     )
 
-    return content
+    return contents
 }
 
 export default Public
