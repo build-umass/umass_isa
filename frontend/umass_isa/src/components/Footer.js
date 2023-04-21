@@ -4,6 +4,7 @@ import "../css/footer.css"
 import fb from "../images/facebook_icon.png"
 import insta from "../images/instagram_icon.png"
 import twitter from "../images/twitter_icon.png"
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
     const content = (
@@ -24,9 +25,9 @@ const Footer = () => {
             <div className="col-3">
                 <h3 className="title">Sponsors</h3>
                 <ul>
-                    <li className="tab" id="text">Bombay Royale</li>
-                    <li className="tab" id="text">DesiOPT</li>
-                    <li className="tab" id="text">Neighbor Food Mart</li>
+                    <li className="tab" id="text"><Link target="_blank" to="https://www.bombayroyale.com/">Bombay Royale</Link></li>
+                    <li className="tab" id="text"><Link target="_blank" to="https://desiopt.com/">DesiOPT</Link></li>
+                    <li className="tab" id="text"><Link target="_blank" to="https://www.neighborfoodmart.com/">Neighbor Food Mart</Link></li>
                 </ul>
             </div>
             <div className="col-4">
@@ -37,7 +38,7 @@ const Footer = () => {
                         <div>
                             <ul className="social">
                                 <li><img id="socials" alt="facebook" src={fb}></img></li>
-                                <li><img id="socials" alt="instagram" src={insta}></img></li>
+                                <li><Link target="_blank" to="https://www.instagram.com/umass_isa/"><img id="socials" alt="instagram" src={insta}></img></Link></li>
                                 <li><img id="socials" alt="twitter" src={twitter}></img></li>
                             </ul>
                         </div>
