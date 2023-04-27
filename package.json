@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/build-umass/umass_isa#readme",
   "dependencies": {
+    "@reduxjs/toolkit": "^1.9.5",
     "bcrypt": "^5.1.0",
     "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
@@ -28,6 +29,7 @@
     "express-async-handler": "^1.2.0",
     "mongoose": "^7.0.3",
     "mongoose-sequence": "^5.3.1",
+    "react": "^18.2.0",
     "uuid": "^9.0.0"
   },
   "devDependencies": {
