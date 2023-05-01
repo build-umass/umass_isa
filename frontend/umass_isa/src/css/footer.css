@@ -4,7 +4,7 @@
 footer {
     display: flex;
     padding: 30px 15%;
-    background-color: #FFC265;
+    background-color: #3363A2;
     color: white;
     width: 100%;
   }
@@ -16,7 +16,7 @@ footer {
 
 .title{
     font-family: 'Sansita', 'sans-serif';
-    color: #3363A2;
+    color: white;
     margin-bottom: 10px;
 }
 

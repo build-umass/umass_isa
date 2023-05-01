@@ -6,6 +6,8 @@ import DashLayout from './components/DashLayout'
 import Welcome from './features/auth/Welcome'
 import NotesList from './features/notes/NotesList'
 import UsersList from './features/users/UsersList'
+import FAQS from './components/FAQS'
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -13,7 +15,12 @@ function App() {
       {/* this element is the parent route of everything else*/}
       <Route path="/" element={<Layouts />}>
         {/* public links to a login component, "index" render the children as the default component */}
-        <Route index element={<Public />} />
+        <Route index element={<Public />}/>
+
+        <Route path="FAQS" element={<FAQS/>}/>
+
+        <Route path="ContactUs" element={<Contact/>}/>
+
         <Route path="login" element={<Login/>} />
 
         {/* Begin Dash: Where the protected routes will begin */}

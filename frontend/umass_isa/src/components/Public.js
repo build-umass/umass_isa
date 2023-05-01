@@ -3,13 +3,14 @@
 import "../css/public.css"
 import Footer from './Footer.js'
 import img from '../images/about_us.png'
+import Navbar from "../components/Navbar.js"
 
 const Public = () => {
     const contents = (
         <>
             <section id="landing"></section>
+            <Navbar/>
             <section id="about_us">
-
                         <div id="textboxes">
                             <div><h1 id="title">About Us</h1></div>
 

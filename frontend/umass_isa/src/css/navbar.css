@@ -1,0 +1,66 @@
+* {
+    color: white;
+    
+}
+
+#menuButton {
+    position: absolute;
+    cursor: pointer;
+    padding: 45px;
+  }
+  
+  #menuIcon {
+    height: 25px;
+    width: 50px;
+  }
+  
+  #menuIcon:active {
+    opacity: 0.5;
+  }
+  
+  #navbar {
+    background-color: #3363A2;
+    padding-left: 100px;
+    width: 100vw;
+    font-size: 20px;
+  }
+  
+  #navbar ul {
+    display: inline;
+    list-style: none;
+    align-items: center;
+  }
+  
+  #navbar li {
+    float: left;
+    padding: 45px;
+    color: white;
+  }
+  #navbar li:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  #navbar li:active {
+    text-decoration: underline;
+  }
+  #navbar li#currPage {
+    background-color: #fff9f0;
+    text-decoration: underline;
+  }
+  #navbar li#logout {
+    float: right;
+  }
+  
+  .invisible {
+    display: none;
+  }
+  
+  .visible {
+    display: inline;
+  }
+  
+  .navbarcontainer {
+    height: 120px;
+    width: 100vw;
+    display: flex;
+  }
