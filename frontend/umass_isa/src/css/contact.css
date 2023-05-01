@@ -1,0 +1,59 @@
+label, input, textarea {
+    color: black;
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+input {
+    min-width: 600px;
+   
+}
+
+textarea {
+    min-width: 700px;
+    min-height: 300px;
+}
+
+.form {
+    background-color: white;
+    margin: auto;
+    margin-bottom: 30px;
+    width: 1000px;
+    max-width: 90vw;
+    border-style: solid;
+    text-align: left;
+    border-style: none;
+    justify-content: center;
+  
+    display: grid;
+    grid-template-columns: repeat(2, fit-content(70%));
+}
+
+.textbox {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+#label {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#textarea {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.subtitle {
+    font-family: 'Poppins', 'sans-serif';
+    font-size: 30px;
+    color: #3363A2;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+input, textarea {
+    background-color: #FDF7E6;
+    border-style: none;
+}
