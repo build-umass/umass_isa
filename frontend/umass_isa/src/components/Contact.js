@@ -1,15 +1,8 @@
-import Navbar from "./Navbar"
-import Footer from "./Footer"
 import "../css/contact.css"
 
 const Contact = () => {
 
     const contents = (
-        
-        <>
-
-        <Navbar/>
-
         <section className="container">
 
             <div id="title">Contact Us</div>
@@ -36,10 +29,6 @@ const Contact = () => {
             </div>
 
         </section>
-
-        <Footer/>
-
-        </>      
     )
 
     return contents

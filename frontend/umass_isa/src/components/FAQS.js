@@ -1,14 +1,8 @@
-import Navbar from "./Navbar";
-import Footer from "./Footer";
 import "../css/FAQS.css"
 
 const FAQS = () => {
 
     const contents = (
-        <>
-
-        <Navbar/>
-
         <section className="container">
 
             <div id="title">FAQs</div>
@@ -32,11 +26,7 @@ const FAQS = () => {
 
             </div>
 
-        </section>
-
-        <Footer/>
-           
-        </>      
+        </section>     
     )
 
     return contents
